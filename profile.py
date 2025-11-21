@@ -47,7 +47,7 @@ pc.defineParameter(
     description="Run deploy scripts for srsRAN_Project and srsRAN_4G",
     typ=portal.ParameterType.BOOLEAN,
     defaultValue=False,
-    advanced=True,
+    advanced=False,
 )
 
 pc.defineParameter(
