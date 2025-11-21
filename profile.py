@@ -30,7 +30,7 @@ pc.defineParameter(
     name="deployric",
     description="Deploy ORAN SC RIC and xApp on the same node.",
     typ=portal.ParameterType.BOOLEAN,
-    defaultValue=False,
+    defaultValue=True,
 )
 
 pc.defineParameter(
