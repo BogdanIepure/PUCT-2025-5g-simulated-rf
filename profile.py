@@ -46,7 +46,7 @@ pc.defineParameter(
     name="do_deploy",
     description="Run deploy scripts for srsRAN_Project and srsRAN_4G",
     typ=portal.ParameterType.BOOLEAN,
-    defaultValue=False,
+    defaultValue=True,
     advanced=True,
 )
 
@@ -54,7 +54,7 @@ pc.defineParameter(
     name="enable_vnc",
     description="Enable browser-based VNC server.",
     typ=portal.ParameterType.BOOLEAN,
-    defaultValue=True,
+    defaultValue=False,
     advanced=True,
 )
 
