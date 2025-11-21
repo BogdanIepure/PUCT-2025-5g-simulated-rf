@@ -30,7 +30,7 @@ pc.defineParameter(
     name="deployric",
     description="Deploy ORAN SC RIC and xApp on the same node.",
     typ=portal.ParameterType.BOOLEAN,
-    defaultValue=True,
+    defaultValue=False,
 )
 
 pc.defineParameter(
@@ -39,14 +39,14 @@ pc.defineParameter(
     typ=portal.ParameterType.STRING,
     defaultValue=node_types[0],
     legalValues=node_types,
-    advanced=True,
+    advanced=False,
 )
 
 pc.defineParameter(
     name="do_deploy",
     description="Run deploy scripts for srsRAN_Project and srsRAN_4G",
     typ=portal.ParameterType.BOOLEAN,
-    defaultValue=True,
+    defaultValue=False,
     advanced=True,
 )
 
